@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 62.5%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/* _____________________________ */
+body {
+  font-family: sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-section {
+  padding: 32px 32px 72px;
+  background-color: #5964e0;
+  border-bottom-left-radius: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: left;
+  color: white;
+}
+.turn-on-turn-of-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.turn-on-turn-of {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+/* _________NAVIGATION_____________ */
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1110px;
+  height: 80px;
+  margin-top: -50px;
+  background-color: white;
+  border-radius: 4px;
+}
+.navigation-icon,
+.navigation-icon {
+  width: 18px;
+  height: 18px;
+  color: #5964e0;
+}
+
+.shearch-bar-box,
+.location-bar-box,
+.checkbox-button-bar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid rgb(205, 205, 205);
+  padding: 12px;
+  gap: 12px;
+}
+
+.checkbox-button-bar-box {
+  border: none;
+}
+.shearch-bar {
+  width: 370px;
+}
+.location-bar-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.84px;
+  text-align: left;
+}
+
+.checkbox-text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  color: #19202d;
+}
+
+.navigation-btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.84px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  background: #5964e0;
+  color: white;
+}
+
+/* ___________________________ */
+
+.cards-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 36px;
+  padding: 96px;
+}
+
+.card {
+  width: 350px;
+  background-color: #fff;
+  position: relative;
+  padding: 36px 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-img {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(15%, -50%);
+}
+
+.gray-text-box {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #6e8098;
+}
+
+.gray-text {
+  color: #6e8098;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.84px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: left;
+}
+
+.more-info {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.36px;
+  text-align: left;
+  color: #5964e0;
+}
+
+/* ________________________*/
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.footer-btn {
+  background: #5964e0;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.84px;
+  text-align: center;
+}
+
+/* ______________________ */
+.shearch-bar-box :hover,
+.location-bar-box:hover,
+.checkbox-button-bar-box :hover {
+  cursor: pointer;
+}
+
+/* ______________________________________________ */
+
+@media (max-width: 1009px) {
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+}
