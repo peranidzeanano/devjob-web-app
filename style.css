@@ -252,12 +252,3 @@ body {
 .checkbox-button-bar-box :hover {
   cursor: pointer;
 }
-
-/* ______________________________________________ */
-
-@media (max-width: 1009px) {
-  .container {
-    max-width: 1110px;
-    margin: 0 auto;
-  }
-}
